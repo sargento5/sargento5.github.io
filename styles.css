@@ -1,0 +1,95 @@
+/* Brandon Sargent
+final
+*/
+
+/* Adds the background image and makes it stretch to cover the whole page */
+
+html {
+	background-image:url(background.jpg);
+
+	background-repeat:no-repeat;
+
+	background-size:cover;
+}
+
+/*Adds the text boxes with the colored text to the headers */
+header {
+	text-shadow: 2px 2px #ffffff;
+	border-style: dotted;
+	font-size: 40px;
+	text-align: Center;
+	font-weight: bold;
+	margin-left: 400px;
+	margin-right:400px;
+	margin-bottom: 100px;
+	background-color: #FFB65F;
+}
+
+/* Changes the position and adds formatting to the first header */
+
+h1 {
+	text-align: Center;
+	border-style: dotted;
+	text-shadow: 1px 1px #ffffff;
+	background-color: #FFB65F;
+	margin-left: 500px;
+	margin-right:500px;
+}
+
+/* This type of list allows for descriptions for each entry, which I used as a makeshift paragraph */
+
+dl {
+	background-color: #ccff99;
+	list-style-position: inside;
+	text-align: Center;
+	font-size: 20px;
+	border-style: double;
+	margin-left: 100px;
+	margin-right: 900px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+dd {
+	font-weight: bold;
+}
+
+/* Formatting for the paragraph text */
+
+p {
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	background-color: #ccff99;
+	list-style-position: inside;
+	border-style: double;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*moves the footer to the center */
+
+footer {
+	text-align: center;
+}
+
+/* Adds formatting and a text box to the 2nd header */
+
+h2 {
+	text-align: Center;
+	border-style: dotted;
+	text-shadow: 1px 1px #ffffff;
+	background-color: #FFB65F;
+	margin-left: 500px;
+	margin-right:500px;
+	margin-top: 100px;
+}
+
+/* Formatting for the image, making it float to the right */
+
+img {
+	float: right;
+	margin-right: 300px;
+}
